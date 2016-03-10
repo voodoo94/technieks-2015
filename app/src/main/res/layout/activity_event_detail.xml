@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/app_background" >
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/eventHeadText"
+        android:text="Header"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:textColor="#FE9" />
+
+    <ImageView
+        android:layout_below="@+id/eventHeadText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EImageView"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_below="@+id/EImageView"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/eventDescText"
+        android:text="description"
+        android:textColor="#EFEEE9"
+        android:textSize="24sp"
+        android:gravity="center" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/eventRegBut"
+        android:text="Register"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@layout/btn_blk"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:onClick="registerButtonClicked"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

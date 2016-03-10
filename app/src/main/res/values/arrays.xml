@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="action_list">
+        <item>Signature Events</item>
+        <item>Day 1 Events  </item>
+        <item>Day 2 Events  </item>
+        <item>Day 3 Events  </item>
+    </string-array>
+</resources>
